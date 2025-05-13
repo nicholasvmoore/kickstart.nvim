@@ -1,6 +1,6 @@
 require('toggleterm').setup {
   --
-  start_in_insert = true,
+  start_in_insert = false,
   persistent_mode = true,
   shell = vim.o.shell,
   auto_scroll = true,
